@@ -14,12 +14,12 @@ if ($handle) {
                  print "Sensor ID#: $sensors = $celsius &deg;C / $fahrenheit &deg;F<br>";
                  $sensors++;
              } else {
-                print "No motherfucking temperature read!";
+                print "Unable to read temperature.";
              }
     }
 
     fclose($handle);
 } else {
-    print "No motherfucking sensors found!";
+    print "No sensors found.";
 }
 ?>

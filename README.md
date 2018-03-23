@@ -20,7 +20,7 @@ w1-therm
 
 Press Ctrl + X and Y to confirm, then reboot your Pi.
 
-Add temp.php to /var/www/html then visit http://127.0.0.1/temp.php or http://[IP OF PI]/temp.php
+Add temp.php to /var/www/html then visit *http://127.0.0.1/temp.php* or *http://[IP OF PI]/temp.php*.
 
 Page output should look similar to this:
 ```
